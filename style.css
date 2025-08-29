@@ -105,8 +105,9 @@ main {
 
 .hero-image-box img {
     width: 100%;
-    height: auto;
-    border-radius: 20px; /* 画像の角を丸く */
+    height: 600px; /* 高さを600pxに固定 */
+    object-fit: cover; /* 画像が中央で切り取られるように */
+    border-radius: 20px;
 }
 
 img {
