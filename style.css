@@ -1,216 +1,196 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Hiragino Sans'; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 12.0px 'Hiragino Sans'; font-kerning: none}
-    span.s3 {font: 12.0px Helvetica; font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">body {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'M PLUS Rounded 1c', sans-serif;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #333;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height: 1.6;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: #f7f3e9; /* </span><span class="s2">柔らかなクリーム色</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">a {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-decoration: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: inherit;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">header {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: #e6b98e; /* </span><span class="s2">暖色系のヘッダー</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 1rem 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.header-inner {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 1000px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0 auto;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: space-between;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 0 20px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.logo {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.8rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 700;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.global-nav ul {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>list-style: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 20px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.global-nav a {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 400;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 10px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transition: background-color 0.3s;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 5px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.global-nav a:hover {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: rgba(255, 255, 255, 0.2);</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">main {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding-top: 50px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.content-section {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 900px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0 auto 50px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 40px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: #fff;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 20px; /* </span><span class="s2">全体的に丸い印象</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.content-section h3 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 2.2rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 30px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #d18d45; /* </span><span class="s2">暖色系のタイトル</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-bottom: 2px solid #f0c5a0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: inline-block;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding-bottom: 5px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.hero-section {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: relative;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 50px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.hero-text-box {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: absolute;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>top: 50%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>left: 50%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transform: translate(-50%, -50%);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: rgba(0, 0, 0, 0.4);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 20px 40px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 10px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>z-index: 10;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.hero-text-box h2 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 3rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.hero-text-box p {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.2rem;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.hero-image-box img {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 100%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height: auto;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 20px; /* </span><span class="s2">画像の角を丸く</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">img {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 15px; /* </span><span class="s2">全ての画像の角を丸く</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 100%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height: auto;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.item-list {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 30px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.item-card {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 300px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.item-card img {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 15px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.item-card h4 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #d18d45;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.3rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top: 0;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.text-and-image {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 40px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.text-and-image .image-box,</span></p>
-<p class="p1"><span class="s1">.text-and-image .text-box {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex: 1;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>min-width: 300px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">footer {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: #e6b98e;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top: 50px;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s3">/* </span><span class="s1">レスポンシブ対応</span><span class="s3"> */</span></p>
-<p class="p1"><span class="s1">@media (max-width: 768px) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.header-inner {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>flex-direction: column;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.global-nav ul {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>flex-direction: column;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>align-items: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>margin-top: 10px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.hero-text-box {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>position: static;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>transform: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>background-color: transparent;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>color: #333;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>text-shadow: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>padding: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>text-align: left;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>margin: 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.hero-image-box {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>display: none; /* </span><span class="s2">スマホでは画像を表示しない</span><span class="s1"> */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.content-section {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>padding: 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.text-and-image {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>flex-direction: column;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1">}</span></p>
-</body>
-</html>
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f7f3e9; /* 柔らかなクリーム色 */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #e6b98e; /* 暖色系のヘッダー */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.global-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.global-nav a {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.global-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    padding-top: 50px;
+}
+
+.content-section {
+    max-width: 900px;
+    margin: 0 auto 50px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px; /* 全体的に丸い印象 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #d18d45; /* 暖色系のタイトル */
+    border-bottom: 2px solid #f0c5a0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.hero-text-box h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-text-box p {
+    font-size: 1.2rem;
+}
+
+.hero-image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* 画像の角を丸く */
+}
+
+img {
+    border-radius: 15px; /* 全ての画像の角を丸く */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+.item-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-card {
+    width: 300px;
+    text-align: center;
+}
+
+.item-card img {
+    margin-bottom: 15px;
+}
+
+.item-card h4 {
+    color: #d18d45;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.text-and-image .image-box,
+.text-and-image .text-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6b98e;
+    color: white;
+    margin-top: 50px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .header-inner {
+        flex-direction: column;
+    }
+
+    .global-nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .hero-text-box {
+        position: static;
+        transform: none;
+        background-color: transparent;
+        color: #333;
+        text-shadow: none;
+        padding: 0;
+        text-align: left;
+        margin: 20px;
+    }
+
+    .hero-image-box {
+        display: none; /* スマホでは画像を表示しない */
+    }
+
+    .content-section {
+        padding: 20px;
+    }
+
+    .text-and-image {
+        flex-direction: column;
+    }
+}
